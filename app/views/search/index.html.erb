@@ -1,0 +1,9 @@
+<section id='station'>
+  <h1 id='name'><%= search_results.name %></h1>
+  <p id="address"><%= search_results.address %></p>
+  <p id="type"><%= search_results.type %></p>
+  <p id="access-times"><%= search_results.access_times %></p>
+  <p id="distance"><%= search_results.distance %></p>
+  <p id="travel-time"><%= search_results.duration %></p>
+  <p id="directions"><%= sanitize(search_results.directions) %></p>
+</section>
